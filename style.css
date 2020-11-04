@@ -14,6 +14,95 @@ a {
   text-decoration: none;
 }
 
+.top-navbar {
+  display: none;
+}
+
+@media (min-width: 1015px) {
+  .top-navbar {
+    display: flex;
+    border-bottom: 1px solid #e5e5e5;
+    height: 50px;
+  }
+
+  .top-navbar-items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+    justify-content: space-between;
+  }
+
+  .left-side-items {
+    flex: 0 0 50%;
+    max-width: 50%;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .top-navbar-contact i {
+    color: #dfa974;
+  }
+
+  .top-navbar-contact span {
+    display: inline-block;
+    font-size: 16px;
+    color: #19191a;
+    font-weight: 500;
+    font-family: "Cabin", sans-serif;
+    padding: 14px 0 12px;
+    margin-right: 64px;
+    line-height: 1.5;
+    margin-left: 6px;
+  }
+
+  .right-side-items {
+    display: flex;
+    flex: 0 0 50%;
+    max-width: 50%;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .top-navbar-social {
+    padding: 13px 0;
+  }
+
+  .top-navbar-social a {
+    color: #19191a;
+    margin-left: 15px;
+    font-size: 16px;
+  }
+
+  .booking-btn {
+    font-size: 13px;
+    font-weight: 700;
+    padding: 16px 28px 15px;
+    background: #dfa974;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 35px;
+    height: 50px;
+  }
+
+  .language-option {
+    margin-left: 30px;
+    display: flex;
+    height: 50px;
+  }
+  .language-option img {
+    border-radius: 50%;
+    padding: 12px 0 12px;
+  }
+  .language-option span {
+    margin-left: 10px;
+    padding: 15px 0;
+  }
+}
 .navbar {
   width: 100%;
   display: flex;
@@ -165,6 +254,28 @@ h1 {
 }
 .about-us-section .about-img-1 {
   padding-bottom: 115px;
+}
+
+.services-section {
+  text-align: center;
+  padding: 100px 35px 35px 35px;
+}
+.services-section .services-title span {
+  font-size: 14px;
+  color: #dfa974;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.services-section .services-title h2 {
+  font-family: "Lora", serif;
+  font-size: 44px;
+  font-weight: 400;
+  color: #19191a;
+  line-height: 58px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
