@@ -18,6 +18,10 @@ a {
   display: none;
 }
 
+.navbar-menu {
+  display: none;
+}
+
 @media (min-width: 1015px) {
   .top-navbar {
     display: flex;
@@ -32,6 +36,49 @@ a {
     padding-right: 40px;
     padding-left: 40px;
     justify-content: space-between;
+  }
+
+  .navbar-menu {
+    display: flex;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+  }
+
+  li {
+    margin-right: 44px;
+  }
+
+  li a {
+    color: #19191a;
+    padding-bottom: 4px;
+  }
+
+  li a:hover {
+    border-bottom: 2px solid #dfa974;
+  }
+
+  .active {
+    border-bottom: 2px solid #dfa974;
+  }
+
+  .navbar .fa-bars {
+    display: none;
+  }
+
+  .navbar img {
+    padding: 23px 0 23px 6px;
+  }
+
+  .mainmenu {
+    padding-top: 13px;
+    padding-right: 62px;
+  }
+
+  .fa-search {
+    padding-top: 30px;
   }
 
   .left-side-items {
@@ -112,13 +159,18 @@ a {
 .navbar a {
   display: inline-block;
 }
-.navbar i {
+.navbar .fa-bars {
   font-size: 22px;
   border: 1px solid #19191a;
   border-radius: 2px;
   padding: 3px 5px;
 }
 
+@media (min-width: 1015px) {
+  .navbar {
+    padding: 0 40px;
+  }
+}
 .hero-section {
   background-image: url("./images/hero-1.jpg");
   height: 1385px;
@@ -127,6 +179,16 @@ a {
   background-position: top;
 }
 
+@media (min-width: 1015px) {
+  .hero-section {
+    height: 771px;
+  }
+
+  .hero-section .container {
+    display: flex;
+    max-width: 990px;
+  }
+}
 h1 {
   font-family: "Lora", serif;
   font-weight: 400;
@@ -158,6 +220,12 @@ h1 {
   padding-bottom: 5px;
 }
 
+@media (min-width: 1015px) {
+  .hero-text {
+    max-width: 470px;
+    padding-left: 55px;
+  }
+}
 .booking-form {
   background-color: #fff;
   margin: 45px 15px 0 15px;
@@ -199,6 +267,12 @@ h1 {
   margin-top: 30px;
 }
 
+@media (min-width: 1015px) {
+  .booking-form {
+    margin-top: 60px;
+    margin-left: 15.3333%;
+  }
+}
 .about-us-section {
   border-bottom: 1px solid #ebebeb;
   text-align: center;
@@ -256,6 +330,29 @@ h1 {
   padding-bottom: 115px;
 }
 
+@media (min-width: 1015px) {
+  .about-us-section .container {
+    display: flex;
+    max-width: 990px;
+  }
+
+  .about-us-text {
+    max-width: 475px;
+  }
+
+  .about-us-title {
+    padding: 4px;
+  }
+
+  .about-us-title h2 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+
+  .about-us-pics {
+    display: flex;
+  }
+}
 .services-section {
   text-align: center;
   padding: 100px 35px 35px 35px;
