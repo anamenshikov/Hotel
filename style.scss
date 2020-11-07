@@ -409,4 +409,48 @@ h1 {
       margin: 0;
     }
   }
+
+    .services-item {
+      text-align: center;
+      padding: 30px 35px 18px;
+      max-width: 100%;
+    }
+
+    .services-item:hover {
+      background-color: #dfa974;
+
+      & .fa, h4, p {
+        color: #ebebeb;
+      }
+    }
+
+    & .fa {
+      color: #dfa974;
+      font-size: 50px;
+    }
+
+    & h4 {
+      color: #19191a;
+      font-size: 22px;
+      margin-bottom: 15px;
+      margin-top: 10px;
+      font-family: 'Lora', sans-serif;
+      font-weight: 400;
+    }
+
+    & p {
+      color: #707079;
+      font-size: 16px;
+      font-family: "Cabin", sans-serif;
+      line-height: 26px;
+    }
 }
+
+@media (min-width:1015px) {
+  .services-items {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-bottom: 230px;
+  }
+}
+
