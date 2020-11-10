@@ -414,8 +414,133 @@ h1 {
   .services-items {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding-bottom: 230px;
   }
+}
+.rooms-section .container {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.rooms-item {
+  height: 600px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+}
+
+.room-1 {
+  background-image: url("./images/room-1.jpg");
+}
+
+.room-2 {
+  background-image: url("./images/room-2.jpg");
+}
+
+.room-3 {
+  background-image: url("./images/room-3.jpg");
+}
+
+.room-4 {
+  background-image: url("./images/room-4.jpg");
+}
+
+.room-text {
+  left: 50px;
+  position: absolute;
+  padding-top: 100px;
+}
+.room-text h3 {
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Lora", serif;
+}
+.room-text h2 {
+  color: #dfa974;
+  font-family: "Lora", serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.room-text table {
+  margin-bottom: 20px;
+}
+.room-text td {
+  padding-right: 50px;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 36px;
+}
+
+.room-text h2 span {
+  font-family: "Cabin", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.rooms-btn {
+  color: white;
+  border-bottom: 2px solid #ffffff;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+}
+
+.testimonials-section {
+  padding-bottom: 100px;
+}
+.testimonials-section .container {
+  margin-top: 100px;
+}
+.testimonials-section .testimonials-title {
+  text-align: center;
+}
+.testimonials-section .testimonials-title span {
+  font-size: 14px;
+  color: #dfa974;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.testimonials-section .testimonials-title h2 {
+  font-size: 44px;
+  color: #19191a;
+  line-height: 58px;
+  margin-top: 10px;
+  font-weight: 400;
+  font-family: "Lora", serif;
+}
+.testimonials-section .testimonials-desc {
+  text-align: center;
+  margin: 0 15px;
+}
+.testimonials-section .testimonials-desc p {
+  font-size: 20px;
+  color: #707079;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+.testimonials-section .testimonials-author {
+  margin-bottom: 60px;
+  display: flex;
+}
+.testimonials-section .testimonials-author h5 {
+  font-size: 20px;
+  color: #19191a;
+  font-weight: 400;
+  font-family: "Lora", serif;
+  margin: 0;
+  padding-left: 10px;
+}
+.testimonials-section .rating {
+  color: #f5b917;
+  font-size: 16px;
+  padding-top: 5px;
+  padding-left: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
